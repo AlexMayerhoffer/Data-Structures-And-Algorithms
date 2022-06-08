@@ -3,27 +3,27 @@
 
 int main()
 {
-    Nod** HT = new Nod*[MAX_HT];
+    Nod** ht = new Nod*[MAX_HT];
     for (int i = 0; i < MAX_HT; i++)
     {
-        initLista(HT[i]);
+        initLista(ht[i]);
     }
 
-    insertHT(HT, "ala");
-    insertHT(HT, "sudoku");
-    insertHT(HT, "Pui");
-    insertHT(HT, "iphone");
-    insertHT(HT, "samsung");
-    insertHT(HT, "gigel");
-    insertHT(HT, "tataie");
-    insertHT(HT, "baaai");
-    insertHT(HT, "lopata");
-    insertHT(HT, "rog");
-    insertHT(HT, "asus");
-    insertHT(HT, "cafea");
-    insertHT(HT, "habinii");
+    insertHT(ht, "ala");
+    insertHT(ht, "sudoku");
+    insertHT(ht, "Pui");
+    insertHT(ht, "iphone");
+    insertHT(ht, "samsung");
+    insertHT(ht, "gigel");
+    insertHT(ht, "tataie");
+    insertHT(ht, "baaai");
+    insertHT(ht, "lopata");
+    insertHT(ht, "rog");
+    insertHT(ht, "asus");
+    insertHT(ht, "cafea");
+    insertHT(ht, "habinii");
 
-    afisareHash(HT);
+    afisareHash(ht);
 
     return 0;
 
